@@ -68,6 +68,21 @@ ubuntu@ubuntu:~/Documents/mywork$
 
 ```
 
+Unthorized access won't be allowed
+
+```
+ubuntu@ubuntu:~/Documents/mywork$ curl -u piyush:pc1610 -i -X GET http://127.0.0.1:5000/api/v1/resources/storagevendor/all
+HTTP/1.0 401 UNAUTHORIZED
+Content-Type: text/html; charset=utf-8
+Content-Length: 19
+WWW-Authenticate: Basic realm="Authentication Required"
+Server: Werkzeug/1.0.1 Python/3.10.4
+Date: Wed, 18 May 2022 04:46:21 GMT
+
+Unauthorized Accessubuntu@ubuntu:~/Documents/mywork$ 
+
+```
+
 The static page for the portal is 
 
 ![image](https://user-images.githubusercontent.com/23258543/168943467-ab38621b-83c7-4b53-b498-91733273d2e6.png)
