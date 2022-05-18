@@ -1,4 +1,4 @@
-API for the list for Storage Vendor 
+API for the list of Storage Vendor 
 
 For Mac / Linux users, perform below to setup the environment
 
