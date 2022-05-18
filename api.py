@@ -23,7 +23,7 @@ storagevendor = [
 
 @app.route('/', methods=['GET'])
 def home():
-    return '''<h1>Reading Archive</h1>
+    return '''<h1>Storage Vendor List</h1>
 <p>A prototype API for Storage Vendor.</p>'''
 
 
