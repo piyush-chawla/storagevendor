@@ -67,3 +67,15 @@ Date: Wed, 18 May 2022 01:57:17 GMT
 ubuntu@ubuntu:~/Documents/mywork$ 
 
 ```
+In order to access it via portal, visit http://127.0.0.1:5000/api/v1/resources/storagevendor/all
+
+authenticate by using the static username/password hard coded in the program. 
+
+![image](https://user-images.githubusercontent.com/23258543/168941960-d64fcaa0-7b87-4a30-aea8-c1308e13d9e3.png)
+
+username: piyush
+password: pc1611
+
+after authentication below will the output
+
+![image](https://user-images.githubusercontent.com/23258543/168942026-3b0a11e8-fbd9-4755-8a63-52223ce20396.png)
