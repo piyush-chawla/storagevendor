@@ -38,6 +38,18 @@ ubuntu@ubuntu:~/Documents/mywork$ curl http://127.0.0.1:5000/api/v1/resources/st
 ]
 ubuntu@ubuntu:~/Documents/mywork$ 
 
+```
 
+In order to fetch record of any particular vendor/id, run below
 
+```
+ubuntu@ubuntu:~/Documents/mywork$ curl http://127.0.0.1:5000/api/v1/resources/storagevendor?id=0
+[
+  {
+    "Product": "VMAX", 
+    "Vendor": "DellEMC", 
+    "id": 0
+  }
+]
+ubuntu@ubuntu:~/Documents/mywork$
 ```
