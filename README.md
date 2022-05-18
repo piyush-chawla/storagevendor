@@ -67,7 +67,13 @@ Date: Wed, 18 May 2022 01:57:17 GMT
 ubuntu@ubuntu:~/Documents/mywork$ 
 
 ```
-In order to access it via portal, visit http://127.0.0.1:5000/api/v1/resources/storagevendor/all
+
+The static page for the portal is 
+
+![image](https://user-images.githubusercontent.com/23258543/168943467-ab38621b-83c7-4b53-b498-91733273d2e6.png)
+
+
+However, in order to access records  via portal, visit http://127.0.0.1:5000/api/v1/resources/storagevendor/all
 
 authenticate by using the static username/password hard coded in the program. 
 
